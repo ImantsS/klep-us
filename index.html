@@ -1,1 +1,22 @@
+<!doctype html>
+<html lang="lv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>klep.us</title>
+    <link rel="preload" href="assets/kleps.mp3" as="audio">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>klep.us</h1>
+      <button id="klepBtn" type="button" aria-label="Nospēlēt klepu">KLEP</button>
 
+      <!-- Hidden audio element used as a source; we clone it for overlap-safe playback -->
+      <audio id="klepsSrc" src="assets/kleps.mp3" preload="auto" playsinline></audio>
+
+      <p class="hint">Noklikšķini pogu, lai dzirdētu klepu.</p>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
