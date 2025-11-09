@@ -1,5 +1,5 @@
 const btn = document.getElementById('klepBtn');
-const src = document.getElementById('klepsSrc');
+const src = document.getElementById('klepusSrc');
 
 src.addEventListener('canplaythrough', () => { /* ready */ }, { once:true });
 
